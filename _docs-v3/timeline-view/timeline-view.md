@@ -33,7 +33,7 @@ demos:
 
 The [Scheduler add-on]({{ site.baseurl }}/scheduler) provides a new view called "timeline view" with a customizable horizontal time-axis and resources as rows.
 
-The following pre-configured timeline views are available: **timelineDay**, **timelineWeek**, **timelineMonth**, and **timelineYear**. They can be initialied like so:
+The following pre-configured timeline views are available: **timelineDay**, **timelineWeek**, **timelineMonth**, and **timelineYear**. They can be initialised like so:
 
 ```js
 $('#calendar').fullCalendar({
