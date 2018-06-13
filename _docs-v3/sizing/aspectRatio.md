@@ -10,7 +10,7 @@ Float, *default*: `1.35`
 
 A calendar is a block-level element that fills its entire avaiable width. The calendar’s height, however, is determined by this ratio of width-to-height. (Hint: larger numbers make smaller heights).
 
-The following example will initialize a calendar who's width is twice its height:
+The following example will initialize a calendar whose width is twice its height:
 
 ```js
 $('#calendar').fullCalendar({
@@ -23,7 +23,7 @@ More precisely, this is the aspect ratio of the calendar's "content" area (the a
 
 ## Setter
 
-You can dynamically set a calendar's aspectRatio after initialization:
+The aspect ratio of a calendar can be set dynamically after initialization like so:
 
 ```js
 $('#calendar').fullCalendar('option', 'aspectRatio', 1.8);
